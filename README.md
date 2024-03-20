@@ -10,15 +10,17 @@ To write a program to implement the the Logistic Regression Model to Predict the
 ## Algorithm
 1. Import the required packages and print the present data.
  
-2.Print the placement data and salary data.
+2. Print the placement data and salary data.
 
-3.Find the null and duplicate values.
+3. Find the null and duplicate values.
 
-4.Using logistic regression find the predicted values of accuracy , confusion matrices.
+4. Using logistic regression find the predicted values of accuracy , confusion matrices.
 
-5.Display the results. 
+5. Display the results. 
 
 ## Program:
+
+```c
 ## Developed by: Varadaram sk
 ## RegisterNumber: 212223040232
 
@@ -76,6 +78,7 @@ print(classification_report1)
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 
 
+```
 
 ## Output:
 ![the Logistic Regression Model to Predict the Placement Status of Student](sam.png)
